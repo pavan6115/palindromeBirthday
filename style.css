@@ -1,4 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
 * {
     margin : 0;
     padding: 0;
+    font-family: 'Merienda', cursive;
+}
+
+*:focus {
+    outline:none;
+}
+
+:root {
+    --primary-color: #1b263b;
+    --secondary-color: #fca311;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.header {
+    text-align: center;
+    margin: 2.5rem;
+    color: var(--secondary-color)
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+label, button {
+    display: block;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    color: var(--secondary-color);
+    margin: 3rem 0rem;
+}
+
+.bDate-label {
+    margin: .5rem;
+}
+
+#bDate {
+    height: 1.8rem;
+    width: 20%;
+    padding: 0.2rem 1rem;
+    margin-bottom: 1.3rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.checkPalindrome {
+    margin: 1rem 42rem;
+    border: none;
+    border-radius: .6rem;
+    height: 3.5rem;
+    width: 7rem;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+}
+
+.checkPalindrome:hover {
+    color: white;
+}
+
+.outputMsg {
+    margin: 2.2rem 27rem;
+    width: 40%;
+
 }
